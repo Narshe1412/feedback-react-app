@@ -7,9 +7,17 @@ class Header extends Component {
       case null:
         return 'still deciding';
       case false:
-        return <li><a href="/auth/google">Login with Google</a></li>;
+        return (
+          <li>
+            <a href="/auth/google">Login with Google</a>
+          </li>
+        );
       default:
-        return <li><a>Logout</a></li>;
+        return (
+          <li>
+            <a href="/api/logout">Logout</a>
+          </li>
+        );
     }
   }
 
@@ -17,8 +25,10 @@ class Header extends Component {
     return (
       <nav>
         <div className="nav-wrapper">
-          <ul className="left"><a className="left brand-logo">Feedback App</a></ul>
-          
+          <ul className="left">
+            <a className="left brand-logo">Feedback App</a>
+          </ul>
+
           <ul className="right">{this.renderContent()}</ul>
         </div>
       </nav>
