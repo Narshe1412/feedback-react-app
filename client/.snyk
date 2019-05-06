@@ -28,3 +28,6 @@ patch:
         patched: '2019-02-01T04:49:51.600Z'
     - react-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
         patched: '2019-02-01T04:49:51.600Z'
+  SNYK-JS-AXIOS-174505:
+    - axios:
+        patched: '2019-05-06T02:46:09.659Z'
