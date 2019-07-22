@@ -12,6 +12,46 @@ patch:
         patched: '2019-04-10T02:35:51.005Z'
     - nodemon > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
         patched: '2019-04-10T02:35:51.005Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-07-04T21:59:08.766Z'
+  'npm:debug:20170905':
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-07-04T21:59:08.766Z'
+  'npm:extend:20180424':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-07-04T21:59:08.766Z'
   SNYK-JS-LODASH-450202:
-    - mongoose > async > lodash:
-        patched: '2019-07-04T21:57:39.886Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+    - snyk > lodash:
+        patched: '2019-07-04T21:59:08.766Z'
+  'npm:stringstream:20180511':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-07-04T21:59:08.766Z'
+  'npm:tough-cookie:20170905':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-07-04T21:59:08.766Z'
