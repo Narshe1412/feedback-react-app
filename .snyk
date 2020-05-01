@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -107,3 +107,38 @@ patch:
         patched: '2019-12-12T02:39:52.113Z'
     - snyk > snyk-sbt-plugin > tree-kill:
         patched: '2019-12-12T02:39:52.113Z'
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T07:08:15.861Z'
