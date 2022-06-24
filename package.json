@@ -27,11 +27,11 @@
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "stripe": "^5.10.0",
-    "snyk": "^1.518.0"
+    "snyk": "^1.680.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.17"
   },
   "snyk": true
 }
