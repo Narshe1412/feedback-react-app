@@ -22,12 +22,12 @@
     "body-parser": "^1.18.2",
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.17.1",
-    "npm": "^7.6.1",
+    "npm": "^7.21.0",
     "mongoose": "^5.12.3",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "stripe": "^5.10.0",
-    "snyk": "^1.518.0"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
